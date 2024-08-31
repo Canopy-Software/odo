@@ -1,5 +1,8 @@
 from __future__ import absolute_import, division, print_function
-from collections import Iterator
+try:
+    from collections.abc import Iterator
+except ImportError:
+    from collections import Iterator
 
 import numpy as np
 import pandas as pd
