@@ -4,7 +4,10 @@ import numpy as np
 import pandas as pd
 from datashape.predicates import isscalar
 from toolz import concat, partition_all, compose
-from collections.abc import Iterator, Iterable
+try:
+    from collections.abc import Iterator, Iterable
+except ImportError:
+    from collections import Iterator, Iterable
 import datashape
 from datashape import discover
 from .core import NetworkDispatcher, ooc_types
