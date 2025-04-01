@@ -1,0 +1,37 @@
+[project]
+name = "odo-canopy"
+description = "Canopy updated version of odo"
+readme = "README.md"
+requires-python = ">=3.9,<4"
+authors = [{ name = "Felipe de Oliveira", email = "felipe.oliveira@canopyco.io" }]
+dynamic = ["version"]
+
+[tool.poetry]
+name = "odo-canopy"
+version = "1.0.0"
+description = ""
+authors = ["felipe-canopy <felipe.oliveira@canopyco.io>"]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4"
+pymongo = ">=4.4,<5"
+sqlalchemy = "^1.3.19"
+bcolz = "^1.2.1"
+h5py = "^3.13.0"
+sas7bdat = "^2.2.3"
+paramiko = "^3.5.1"
+pywebhdfs = "^0.4.1"
+boto = "^2.49.0"
+sqlalchemy-redshift = "^0.8.14"
+
+[tool.poetry.group.dev.dependencies]
+#pylint = {version ="^2.15.5",  python = ">=3.7.2"}
+#black = "^22.10.0"
+#pdoc = "^12.2.0"
+#mypy = {version = "^1.4.1", python = ">=3.7"}
+#pre-commit = {version = "^3.3.3", python = ">=3.8"}
+#isort = {version = "^5.12.0", python = ">=3.8"}
+#pytest = {version = "^7.4.0", python = ">=3.7"}
+#bandit = {version = "^1.7.5", python = ">=3.7"}
+#pytest-cov = {version = "^4.1.0", python = ">=3.7"}
+setuptools = {version = "^68.0.0", python = ">=3.7"}
