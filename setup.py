@@ -4,7 +4,7 @@ import os
 from fnmatch import fnmatch
 from setuptools import setup, find_packages
 
-import versioneer
+#import versioneer
 
 
 def find_data_files(where, exts):
@@ -60,8 +60,8 @@ def extras_require():
 
 
 setup(name='odo',
-      version=versioneer.get_version(),
-      cmdclass=versioneer.get_cmdclass(),
+      version="1.0.0",
+      #cmdclass=versioneer.get_cmdclass(),
       description='Data migration utilities',
       url='https://github.com/blaze/odo',
       author='Blaze development team',
