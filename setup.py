@@ -9,12 +9,12 @@ from distutils.core import setup
 from setuptools import find_packages, setup
 
 setup(
-    name="odo-canopy",
+    name="canopy_client",
     version="0.2",
-    description="Client package for interacting with odo",
+    description="Client package for interacting with Canopy software",
     long_description_content_type="text/markdown",
     long_description=open("README.md").read(),
-    url="https://github.com/Canopy-Software/odo",
+    url="https://github.com/Canopy-Software/canopy-client",
     author="Felipe de Oliveira",
     author_email="felipe.oliveira@canopyco.io",
     # packages=["src"],
